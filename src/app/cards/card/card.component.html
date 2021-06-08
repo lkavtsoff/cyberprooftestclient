@@ -1,0 +1,17 @@
+<div class="wrap">
+    <section class="head clearfix">
+        <div class="avatar">
+            <span>SC</span>
+        </div>
+        <div class="titles">
+            <h4>{{values.name}}</h4>
+            <h5>{{values.profession}}</h5>
+            <h6>{{values.postDate}}</h6>
+        </div>
+        <div class="icon" (click)="incrementLike()">
+            <i class="fa fa-heart-o"></i>
+        </div>
+    </section>
+    <p class="msg">{{values.message}}</p>
+    <p class="likes">{{values.likes}} Likes</p>
+</div>

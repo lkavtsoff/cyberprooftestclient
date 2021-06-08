@@ -1,0 +1,61 @@
+:host .wrap {
+    padding: 10px;
+    margin: 5px 0;
+    background-color: #ebebeb;
+}
+:host .head .avatar {
+    width: 50px;
+    padding: 5px;
+    float: left;
+}
+:host .head .avatar span {
+    display: block;
+    width: 100%;
+    height: 35px;
+    line-height: 35px;
+    color: #fff;
+    font-size: 18px;
+    text-align: center;
+    background-color: #ccc;
+    border-radius: 20%;
+}
+:host .head .titles {
+    width: calc(100% - 80px);
+    padding: 5px;
+    float: left;
+}
+:host .head .titles h4 {
+    font-size: 12px;
+    line-height: 20px;
+}
+:host .head .titles h5 {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 20px;
+}
+:host .head .titles h6 {
+    font-size: 12px;
+    font-style: italic;
+    color: #777;
+    line-height: 20px;
+}
+:host .msg {
+    font-size: 16px;
+    line-height: 20px;
+    padding: 5px 20px;
+}
+:host .likes {
+    font-size: 12px;
+    text-align: right;
+    font-weight: bold;
+}
+:host .head .icon {
+    width: 30px;
+    padding: 5px;
+    float: right;
+    cursor: pointer;
+    text-align: right;
+}
+:host .head .icon .fa {
+    color: deepskyblue;
+}

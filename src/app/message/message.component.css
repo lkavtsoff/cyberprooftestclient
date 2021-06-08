@@ -1,0 +1,65 @@
+:host section {
+    padding: 10px 0;
+}
+:host .avatar {
+    width: 50px;
+    padding: 5px;
+    float: left;
+}
+:host .avatar span {
+    display: block;
+    width: 100%;
+    height: 35px;
+    line-height: 35px;
+    color: #fff;
+    font-size: 18px;
+    text-align: center;
+    background-color: #ccc;
+    border-radius: 20%;
+}
+:host form {
+    display: block;
+    float: right;
+    width: calc(100% - 50px);
+    padding: 5px;
+}
+:host form h6 {
+    font-size: 12px;
+    line-height: 14px;
+    font-weight: 300;
+    padding: 5px 0;
+}
+:host form textarea {
+    resize: none;
+    border: none;
+    border-bottom: 2px solid #f3f3f3;
+    width: 100%;
+    outline: 0;
+    font-size: 12px;
+    line-height: 14px;
+    height: 42px;
+}
+:host form button {
+    font-size: 14px;
+    font-weight: bold;
+    padding: 5px 10px;
+    border: 1px solid #d8d8d8;
+    border-radius: 4px;
+    display: inline-block;
+    float: right;
+    margin: 10px 0 10px 10px;
+    cursor: pointer;
+}
+:host form button.post {
+    background-color: cornflowerblue;
+    color: #fff;
+}
+:host form button.cancel {
+    background-color:darkred;
+    color: #fff;
+}
+:host form button:disabled {
+    background-color: #ebebeb;
+    color: #000;
+    cursor: default;
+}

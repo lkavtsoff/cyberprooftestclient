@@ -1,0 +1,10 @@
+:host p {
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 2px;
+    font-weight: bold;
+    color: #bbb;
+    padding: 10px 0;
+    text-align: center;
+    text-transform: uppercase;
+}

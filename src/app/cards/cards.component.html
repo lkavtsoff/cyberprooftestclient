@@ -1,0 +1,6 @@
+<ul>
+    <li *ngFor="let card of cards">
+        <app-card [values]="card" (likePlus)="incLikes($event)"></app-card>
+    </li>
+</ul>
+<p>load more</p>

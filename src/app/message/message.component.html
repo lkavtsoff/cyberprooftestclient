@@ -1,0 +1,11 @@
+<section class="clearfix">
+    <div class="avatar">
+        <span>SC</span>
+    </div>
+    <form>
+        <h6>Share your thoughts</h6>
+        <textarea [(ngModel)]="message" [ngModelOptions]="{standalone: true}" (keyup)="updateForm($event)">{{message}}</textarea>
+        <button class="post" [disabled]="!postAble" (click)="postAction($event)">Post</button>
+        <button class="cancel" [disabled]="!postAble" (click)="cancelAction($event)">Cancel</button>
+    </form>
+</section>
